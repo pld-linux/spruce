@@ -13,6 +13,7 @@ BuildRequires:	gettext-devel
 BuildRequires:	glib-devel >= 1.2.7
 BuildRequires:	gtk+-devel >= 1.2.6
 BuildRequires:	libglade-devel
+BuildRequires:	perl-base
 Requires:	glib >= 1.2.7
 Requires:	gtk+ >= 1.2.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
