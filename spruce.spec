@@ -2,11 +2,13 @@ Summary:	Spruce - a GTK+-based e-mail client supporting local spools, POP3 and I
 Summary(pl):	Spruce - oparty na GTK+ klient poczty obs³uguj±cy skrzynki lokalne, POP3 i IMAP
 Name:		spruce
 Version:	0.7.7
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://dl.sourceforge.net/spruce/%{name}-%{version}.tar.gz
 # Source0-md5:	de46fc100806a7d2d24e5ebdb8d751c1
+Source1:	%{name}.png
+Source2:	%{name}.desktop
 URL:		http://spruce.sourceforge.net/
 BuildRequires:	automake
 BuildRequires:	gettext-devel
@@ -59,11 +61,15 @@ mv -f po/{zh_TW.Big5,zh_TW}.po
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT{%{_pixmapsdir},%{_desktopdir}}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
 	mandir=$RPM_BUILD_ROOT%{_mandir} \
 	gnulocaledir=$RPM_BUILD_ROOT%{_datadir}/locale
+
+install %{SOURCE1} $RPM_BUILD_ROOT%{_pixmapsdir}
+install %{SOURCE2} $RPM_BUILD_ROOT%{_desktopdir}
 
 %find_lang %{name}
 
@@ -74,4 +80,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog DESIGN NEWS README README.SSL README.mbox README.tools THANKS TODO WISHLIST sprucesig.sample tools doc/html
 %attr(755,root,root) %{_bindir}/spruce
+%{_pixmapsdir}/*
+%{_desktopdir}/*
 %{_mandir}/man1/spruce.1*
