@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Spruce
+Comment=GTK+ based e-mail client
+Comment[pl]=Oparty na GTK+ program pocztowy
+Exec=spruce
+Icon=spruce.png
+Terminal=false
+Type=Application
+Categories=Network;Email;
+# vi: encoding=utf-8
