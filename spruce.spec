@@ -81,5 +81,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog DESIGN NEWS README README.SSL README.mbox README.tools THANKS TODO WISHLIST sprucesig.sample tools doc/html
 %attr(755,root,root) %{_bindir}/spruce
 %{_pixmapsdir}/*
-%{_desktopdir}/*
+%{_desktopdir}/*.desktop
 %{_mandir}/man1/spruce.1*
