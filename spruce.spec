@@ -1,5 +1,5 @@
 Summary:	Spruce - a GTK+-based e-mail client supporting local spools, POP3 and IMAP
-Summary(pl.UTF-8):   Spruce - oparty na GTK+ klient poczty obsługujący skrzynki lokalne, POP3 i IMAP
+Summary(pl.UTF-8):	Spruce - oparty na GTK+ klient poczty obsługujący skrzynki lokalne, POP3 i IMAP
 Name:		spruce
 Version:	0.7.7
 Release:	2
