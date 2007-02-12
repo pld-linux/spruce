@@ -1,5 +1,5 @@
 Summary:	Spruce - a GTK+-based e-mail client supporting local spools, POP3 and IMAP
-Summary(pl):	Spruce - oparty na GTK+ klient poczty obs³uguj±cy skrzynki lokalne, POP3 i IMAP
+Summary(pl.UTF-8):   Spruce - oparty na GTK+ klient poczty obsÅ‚ugujÄ…cy skrzynki lokalne, POP3 i IMAP
 Name:		spruce
 Version:	0.7.7
 Release:	2
@@ -31,18 +31,18 @@ and shell wildcards) help to make Spruce a powerful tool. Its simple
 GUI design and available set of NLS translations make spruce an
 easy-to-use tool for everyone.
 
-%description -l pl
+%description -l pl.UTF-8
 Spruce to oparty na GTK+ klient poczty elektronicznej zaprojektowany
-aby dostarczyæ wszystkie podstawowe mo¿liwo¶ci, które zaczê³y byæ
-ludziom potrzebne. Spruce'a mo¿na u¿ywaæ do odbierania poczty z
+aby dostarczyÄ‡ wszystkie podstawowe moÅ¼liwoÅ›ci, ktÃ³re zaczÄ™Å‚y byÄ‡
+ludziom potrzebne. Spruce'a moÅ¼na uÅ¼ywaÄ‡ do odbierania poczty z
 lokalnych skrzynek (spooli) pocztowych, kont POP3 i kont IMAP.
-Program obs³uguje PGP i GNU Privacy Guarda dla zapewnienia
-bezpiecznej, szyfrowanej komunikacji. Obs³uga za³±czników MIME i du¿e
-mo¿liwo¶ci filtrowania (w³±cznie z dopasowywaniem czystego tekstu,
-obs³ug± wyra¿eñ regularnych i masek pow³oki) pomaga uczyniæ Spruce'a
-potê¿nym narzêdziem. Jego prosty projekt interfejsu graficznego i
-dostêpny zbiór t³umaczeñ NLS czyni go prostym w u¿yciu programem dla
-ka¿dego.
+Program obsÅ‚uguje PGP i GNU Privacy Guarda dla zapewnienia
+bezpiecznej, szyfrowanej komunikacji. ObsÅ‚uga zaÅ‚Ä…cznikÃ³w MIME i duÅ¼e
+moÅ¼liwoÅ›ci filtrowania (wÅ‚Ä…cznie z dopasowywaniem czystego tekstu,
+obsÅ‚ugÄ… wyraÅ¼eÅ„ regularnych i masek powÅ‚oki) pomaga uczyniÄ‡ Spruce'a
+potÄ™Å¼nym narzÄ™dziem. Jego prosty projekt interfejsu graficznego i
+dostÄ™pny zbiÃ³r tÅ‚umaczeÅ„ NLS czyni go prostym w uÅ¼yciu programem dla
+kaÅ¼dego.
 
 %prep
 %setup -q
