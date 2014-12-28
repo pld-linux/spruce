@@ -11,7 +11,7 @@ Source1:	%{name}.png
 Source2:	%{name}.desktop
 URL:		http://spruce.sourceforge.net/
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	glib-devel >= 1.2.7
 BuildRequires:	gtk+-devel >= 1.2.6
 BuildRequires:	libglade-devel
